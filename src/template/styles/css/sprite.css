@@ -1,0 +1,203 @@
+.icon-arrow-down-gray {
+  background-image: url(../../img/sprite.png);
+  background-position: -137px -115px;
+  width: 10px;
+  height: 6px; }
+
+.icon-arrow-down-red {
+  background-image: url(../../img/sprite.png);
+  background-position: -123px -93px;
+  width: 10px;
+  height: 6px; }
+
+.icon-arrow-right-gray {
+  background-image: url(../../img/sprite.png);
+  background-position: -132px -48px;
+  width: 4px;
+  height: 8px; }
+
+.icon-arrow-right-red {
+  background-image: url(../../img/sprite.png);
+  background-position: -133px -21px;
+  width: 4px;
+  height: 8px; }
+
+.icon-attachment {
+  background-image: url(../../img/sprite.png);
+  background-position: -137px -47px;
+  width: 14px;
+  height: 15px; }
+
+.icon-car-small {
+  background-image: url(../../img/sprite.png);
+  background-position: -137px -90px;
+  width: 15px;
+  height: 13px; }
+
+.icon-check {
+  background-image: url(../../img/sprite.png);
+  background-position: -105px -67px;
+  width: 18px;
+  height: 14px; }
+
+.icon-chevron-left {
+  background-image: url(../../img/sprite.png);
+  background-position: 0px -67px;
+  width: 19px;
+  height: 36px; }
+
+.icon-chevron-right {
+  background-image: url(../../img/sprite.png);
+  background-position: -19px -67px;
+  width: 19px;
+  height: 36px; }
+
+.icon-clock-small {
+  background-image: url(../../img/sprite.png);
+  background-position: -137px -17px;
+  width: 15px;
+  height: 15px; }
+
+.icon-email {
+  background-image: url(../../img/sprite.png);
+  background-position: -96px -38px;
+  width: 23px;
+  height: 21px; }
+
+.icon-email_small {
+  background-image: url(../../img/sprite.png);
+  background-position: -38px -88px;
+  width: 17px;
+  height: 15px; }
+
+.icon-facebook {
+  background-image: url(../../img/sprite.png);
+  background-position: -123px -48px;
+  width: 9px;
+  height: 16px; }
+
+.icon-grid {
+  background-image: url(../../img/sprite.png);
+  background-position: -123px -64px;
+  width: 11px;
+  height: 11px; }
+
+.icon-hum {
+  background-image: url(../../img/sprite.png);
+  background-position: -123px -75px;
+  width: 12px;
+  height: 10px; }
+
+.icon-instagram {
+  background-image: url(../../img/sprite.png);
+  background-position: -68px -103px;
+  width: 16px;
+  height: 16px; }
+
+.icon-magnifying-glass {
+  background-image: url(../../img/sprite.png);
+  background-position: -52px -103px;
+  width: 16px;
+  height: 16px; }
+
+.icon-marker {
+  background-image: url(../../img/sprite.png);
+  background-position: -96px 0px;
+  width: 27px;
+  height: 38px; }
+
+.icon-metro-white {
+  background-image: url(../../img/sprite.png);
+  background-position: -82px -67px;
+  width: 23px;
+  height: 14px; }
+
+.icon-metro {
+  background-image: url(../../img/sprite.png);
+  background-position: -123px -85px;
+  width: 13px;
+  height: 8px; }
+
+.icon-phone-red {
+  background-image: url(../../img/sprite.png);
+  background-position: 0px -103px;
+  width: 18px;
+  height: 18px; }
+
+.icon-phone-small {
+  background-image: url(../../img/sprite.png);
+  background-position: -137px -32px;
+  width: 14px;
+  height: 15px; }
+
+.icon-phone {
+  background-image: url(../../img/sprite.png);
+  background-position: -38px -67px;
+  width: 20px;
+  height: 21px; }
+
+.icon-placeholder-small {
+  background-image: url(../../img/sprite.png);
+  background-position: -123px -21px;
+  width: 10px;
+  height: 15px; }
+
+.icon-placeholder {
+  background-image: url(../../img/sprite.png);
+  background-position: -123px 0px;
+  width: 14px;
+  height: 21px; }
+
+.icon-return {
+  background-image: url(../../img/sprite.png);
+  background-position: -137px -103px;
+  width: 15px;
+  height: 12px; }
+
+.icon-star-o {
+  background-image: url(../../img/sprite.png);
+  background-position: -137px -62px;
+  width: 14px;
+  height: 14px; }
+
+.icon-star {
+  background-image: url(../../img/sprite.png);
+  background-position: -137px -76px;
+  width: 14px;
+  height: 14px; }
+
+.icon-telegram {
+  background-image: url(../../img/sprite.png);
+  background-position: -35px -103px;
+  width: 17px;
+  height: 17px; }
+
+.icon-viber {
+  background-image: url(../../img/sprite.png);
+  background-position: -137px 0px;
+  width: 15px;
+  height: 17px; }
+
+.icon-vk {
+  background-image: url(../../img/sprite.png);
+  background-position: -58px -67px;
+  width: 24px;
+  height: 14px; }
+
+.icon-whatsapp {
+  background-image: url(../../img/sprite.png);
+  background-position: -18px -103px;
+  width: 17px;
+  height: 17px; }
+
+.icon-x {
+  background-image: url(../../img/sprite.png);
+  background-position: -123px -36px;
+  width: 12px;
+  height: 12px; }
+
+.icon-youtube {
+  background-image: url(../../img/sprite.png);
+  background-position: 0px 0px;
+  width: 96px;
+  height: 67px; }
