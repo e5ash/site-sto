@@ -284,7 +284,7 @@ input, .btn, .slick-slide, textarea
 	&__callback
 		font-size: 13px
 		color: #c93c46
-		border-bottom: 1px dashed #c93c46
+		border-bottom: 1px solid #c93c46
 		&:hover
 			border-color: transparent
 		
@@ -352,10 +352,53 @@ input, .btn, .slick-slide, textarea
 		li
 			width: 10%
 			text-align: center
+			position: relative
 			&:last-of-type
 				a
 					&:after
 						display: none
+			&:hover
+				ul
+					display: block
+			&:nth-of-type(5), &:nth-of-type(6), &:nth-of-type(7), &:nth-of-type(8), &:nth-of-type(9), &:nth-of-type(10)
+				&:hover
+					ul
+						left: auto
+						right: 0
+						+ ul
+							right: 250px
+			ul
+				position: absolute
+				width: 250px
+				left: 0
+				top: 48px
+				background-color: #fff
+				display: none
+				font-size: 0
+				border-right: 1px solid #f3f3f3
+				+ ul
+					left: 250px
+				li
+					display: block
+					width: 100%
+					border-top: 1px solid #f3f3f3
+					font-size: 0
+					text-align: left
+
+				a
+					font-size: $font-size
+					display: flex
+					align-items: center
+					padding: 0 25px
+					height: 48px
+					color: #575757
+					text-align: left
+					&:after
+						display: none
+					&:hover
+						color: #ca3c46
+						background: none
+
 		a
 			display: block
 			padding: 16px 0 14px
@@ -406,8 +449,8 @@ input, .btn, .slick-slide, textarea
 		top: 48px
 		left: 0
 		opacity: 0
-		transform: translateX(-100%)
-		transition: .3s
+		transform: translateX(-50px)
+		transition: .0s
 		visibility: hidden
 		&_toggle
 			opacity: 1
@@ -452,8 +495,8 @@ input, .btn, .slick-slide, textarea
 					align-items: flex-start
 					visibility: hidden
 					opacity: 0
-					transform: translateX(50px)
-					transition: .6s
+					transform: translateX(0px)
+					transition: .0s
 					> li
 						margin-bottom: 17px
 						&:last-of-type
@@ -1300,6 +1343,7 @@ input, .btn, .slick-slide, textarea
 		font-size: 16px
 		line-height: 26px
 		color: #8a8a8a
+		font-size: 24px
 		
 
 
@@ -1403,7 +1447,7 @@ input, .btn, .slick-slide, textarea
 
 
 .bg
-	transition: .3s
+	transition: .7s
 	z-index: 9
 	top: 0
 	left: 0
@@ -1515,6 +1559,9 @@ h1, h2, h3
 				color: $color-1
 				padding-top: 16px
 				padding-bottom: 16px
+	img
+		margin-top: 20px
+
 	.left
 		float: left
 		margin-right: 40px
@@ -1642,3 +1689,8 @@ h1, h2, h3
 		@include sprite($x)
 	&youtube
 		@include sprite($youtube)
+
+
+[class*="ymaps-2"][class*="-ground-pane"]
+	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+	-webkit-filter: grayscale(100%);

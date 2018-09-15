@@ -28,6 +28,12 @@ $(document).ready(function($) {
 		unhoverNav();
 	});
 
+	$('.nav__list > ul > li').hover(function() {
+		bg.addClass(bgClass);
+	}, function() {
+		bg.removeClass(bgClass);
+	});
+
 
 
 	// nav items arrow
@@ -173,7 +179,6 @@ $(document).ready(function($) {
 
 
 
-
 	// sliders mobile
 
   $advantages = $('.advantages__list');
@@ -193,12 +198,12 @@ $(document).ready(function($) {
   }
 
   slick_on_mobile( $advantages, settings_one);
-  slick_on_mobile( $photos, settings_one);
+  slick_on_mobile( $photos, settings_two);
   slick_on_mobile( $certificates, settings_two);
 
   function slick_on_mobile(slider, settings){
     $(window).on('load resize', function() {
-      if ($(window).width() > 767) {
+      if (document.body.clientWidth > 752) {
         if (slider.hasClass('slick-initialized')) {
           slider.slick('unslick');
         }
