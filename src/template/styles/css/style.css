@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* Including styles files */
 /* Including fonts */
-@import url(../../libs/fancybox/dist/jquery.fancybox.css);
+@import url(../../libs/fancybox/dist/jquery.fancybox.min.css);
 @import url(../../libs/slick-carousel/slick/slick.css);
 @font-face {
   font-family: 'Proxima Nova';
@@ -1600,6 +1600,10 @@ h1, h2, h3 {
   .text li {
     position: relative;
     width: 100%; }
+  .text a {
+    color: #c93c46; }
+    .text a:hover {
+      border-color: #c93c46; }
   .text table {
     width: 100%;
     padding-bottom: 35px; }

@@ -119,7 +119,7 @@
     width: calc(100% - 180px - 25px);
     padding-bottom: 15px; }
   .header__call {
-    margin-right: auto; }
+    margin-right: 50px; }
   .slider__item {
     height: 450px; } }
 
@@ -141,6 +141,8 @@
     padding-bottom: 20px; }
     .header__call {
       margin-right: 40px; }
+    .header__contacts {
+      width: 210px; }
   .nav__services {
     width: 120px; }
   .nav__list {
